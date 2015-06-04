@@ -30,10 +30,10 @@
  */
 
 (function(root, factory) {
-    if (typeof define === 'function' && define.amd) {
+    if (typeof module === 'object' && typeof module.exports === 'object') {
+        module.exports = factory(root.jQuery || require('jquery'));
+    } else if (typeof define === 'function' && define.amd) {
         define(['jquery'], factory);
-    } else if (typeof module === 'object' && typeof module.exports === 'object') {
-        module.exports = factory(root.jQuery || root.$ || require('jquery'));
     } else {
         root.Jcrop = factory();
     }
