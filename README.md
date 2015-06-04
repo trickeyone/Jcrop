@@ -38,6 +38,11 @@ Contributors
 * jaymecd
 * all others who have committed their time and effort to help improve Jcrop
 
+Modifications
+=============
+
+Modified the original code-base to be AMD and CommonJS compliant.
+
 MIT License
 ===========
 
