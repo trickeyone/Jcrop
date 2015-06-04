@@ -6,7 +6,7 @@
   "description": "Image cropping plugin for jQuery",
   "main": "js/Jcrop.js",
   "dependencies": {
-    "jquery": "<= ^1.9.0 <^2.2.x"
+    "jquery": "<=2.1.x"
   },
   "keywords": [ "img", "image", "form", "crop", "cropping", "cropper" ],
   "license": "MIT",
